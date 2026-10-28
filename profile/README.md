@@ -1,14 +1,11 @@
-# SprigWorks
+## SprigWorks
 
-Tools for proving software does what it says. [sprig.works](https://sprig.works)
+SprigWorks is a founder-led AI engineering firm in the Upper Valley of Vermont and New Hampshire. We build AI systems that help teams find information, understand their operations and automate routine work.
 
-## Subpoena: trace-native testing for OpenTelemetry
+### Open source
 
-Your application's OpenTelemetry spans become the test interface, and an
-independent witness proves enforcement, so a passing test can't rest on the
-system's own claims. The same TraceQL invariant runs in unit tests, in
-integration tests, and as a production alert.
+**[Subpoena](https://github.com/sprigworks/subpoena)**: test whether your security controls actually stopped the action. Your app's OpenTelemetry spans are the test interface. An independent witness (eBPF or `/proc`) records what really ran, and cross-examination deletes each enforcement statement to check the tests notice. Go and Python, Apache-2.0. [subpoena.dev](https://subpoena.dev)
 
-- Status: alpha (v0.1.0-alpha.1). Go now; Python in progress.
-- [subpoena.dev](https://subpoena.dev) · [github.com/sprigworks/subpoena](https://github.com/sprigworks/subpoena)
-- Apache-2.0
+### Contact
+
+[sprig.works](https://sprig.works) · hello@sprig.works
